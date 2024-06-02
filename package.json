@@ -1,0 +1,36 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "expo": "~51.0.9",
+    "expo-av": "~14.0.5",
+    "expo-dev-client": "~4.0.15",
+    "expo-file-system": "~17.0.1",
+    "expo-media-library": "~16.0.3",
+    "expo-status-bar": "~1.12.1",
+    "express": "^4.19.2",
+    "ffmpeg-kit-react-native": "^6.0.2",
+    "multer": "^1.4.5-lts.1",
+    "react": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-ffmpeg": "^0.5.2",
+    "react-native-fs": "^2.20.0",
+    "react-native-svg": "15.2.0",
+    "react-native-svg-transformer": "^1.4.0",
+    "react-native-video": "^6.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@svgr/cli": "^8.1.0"
+  },
+  "private": true
+}
